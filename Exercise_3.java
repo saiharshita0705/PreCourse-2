@@ -24,7 +24,6 @@ class LinkedList
         System.out.println("List is empty");
         return;
     }
-
     Node slow = head;
     Node fast = head;
     while (fast != null && fast.next != null) {

@@ -9,7 +9,7 @@ class IterativeQuickSort {
             arr[j] = arr[i]^arr[j];
             arr[i] = arr[i]^arr[j];
         }
-    } 
+    }
     /* This function is same in both iterative and 
        recursive*/
     int partition(int arr[], int l, int h) 
